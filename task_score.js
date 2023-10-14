@@ -6,4 +6,4 @@ const averageScore = (introductionModuleScore + gitModuleScore + jsModuleScore) 
 const studentName = 'Светлана';
 const studentSurname = 'Городецкая';
 
-console.log(`Средний балл за 3 модуля у студента по имени ${studentName} ${studentSurname} равен ${averageScore}.`);
+console.log(`Средний балл за 3 модуля у студента по имени ${studentName.slice(0, 1)}.${studentSurname} равен ${averageScore}.`);
